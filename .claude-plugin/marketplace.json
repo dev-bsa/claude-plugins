@@ -1,0 +1,19 @@
+{
+  "name": "blacksmith",
+  "displayName": "Blacksmith Agency",
+  "owner": {
+    "name": "Blacksmith Agency",
+    "url": "https://blacksmith.agency"
+  },
+  "description": "Internal plugin marketplace for Blacksmith Agency. Strategy, design and delivery tooling for the team.",
+  "plugins": [
+    {
+      "name": "blacksmith-layout-architecture",
+      "source": "./plugins/blacksmith-layout-architecture",
+      "description": "Convert a discovery brief into an Octopus import XML and a block level layout spec following the Blacksmith Layout Architecture Playbook.",
+      "version": "0.1.0",
+      "category": "ux-strategy",
+      "keywords": ["layout", "sitemap", "octopus", "ux-strategy", "blacksmith"]
+    }
+  ]
+}

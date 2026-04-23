@@ -1,0 +1,12 @@
+node_title,slug,parent_slug,target_page,page_intent,seo_title,description,h1,keywords,section,is_utility,notes
+Home,/,,home,Commercial,,,,,main,false,Top level
+Work,/work,/,resource_listing,Informational,Our work,Selected case studies across brand web and product,,"work, case studies",main,false,Listing page for case studies
+Case study detail,/work/case-study,/work,resource_detail,Informational,Case study template,Project case study with problem approach and outcomes,,,main,false,Template for any case study
+Services,/services,/,company_detail,Commercial,Services,"Brand strategy, web design, product design, UX strategy",,"services, offerings",main,false,Single page listing all services
+Thinking,/thinking,/,resource_listing,Informational,Thinking,Playbooks and essays from the Blacksmith strategy team,,"blog, playbooks, essays",main,false,Editorial listing
+Essay detail,/thinking/essay,/thinking,resource_detail,Informational,Essay template,Long form essay page,,,main,false,Template for any essay
+About,/about,/,company_detail,Informational,About Blacksmith,How we work who we work with and what we stand for,,"about, team, studio",main,false,Studio story and team
+Contact,/contact,/,contact,Transactional,Start a project,Tell us about your project,,"contact, inquiry",main,false,Primary conversion form
+404,/404,,simple_content_page,Navigational,Page not found,,,,utility,true,Error page
+Privacy,/privacy,,simple_content_page,Informational,,,,,utility,true,Legal
+Terms,/terms,,simple_content_page,Informational,,,,,utility,true,Legal

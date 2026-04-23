@@ -1,0 +1,19 @@
+{
+  "name": "blacksmith-layout-architecture",
+  "displayName": "Layout Architecture",
+  "version": "0.1.0",
+  "description": "Convert a discovery brief into an Octopus import XML and a block level layout spec following the Blacksmith Layout Architecture Playbook. Supports filled Markdown brief, structured YAML, or live interactive intake.",
+  "author": {
+    "name": "Blacksmith Agency"
+  },
+  "keywords": [
+    "layout",
+    "architecture",
+    "sitemap",
+    "octopus",
+    "ux-strategy",
+    "blacksmith"
+  ],
+  "homepage": "https://blacksmith.agency",
+  "license": "UNLICENSED"
+}

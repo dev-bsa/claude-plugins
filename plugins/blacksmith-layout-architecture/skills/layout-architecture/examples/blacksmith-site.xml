@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<octopus scheme="1.0">
+  <project_title>Blacksmith Agency</project_title>
+
+  <tags>
+    <tag color="#18C4A9">Primary</tag>
+    <tag color="#F5A623">Conversion</tag>
+    <tag color="#7B61FF">Editorial</tag>
+    <tag color="#EA5E5E">Needs content</tag>
+  </tags>
+
+  <tree>
+    <section>
+      <node color="#18C4A9" tag="Primary">
+        <node_title>Home</node_title>
+        <seo>
+          <seo_title>Blacksmith. Think Sharp. Build Bold.</seo_title>
+          <slug>/</slug>
+          <description>A strategic design agency building sharp brands, bold sites and real results for ambitious teams.</description>
+          <h1>We build brands that carry weight and sites that carry traffic.</h1>
+          <keywords>design agency, brand strategy, web design, UX strategy</keywords>
+          <page_intent>Commercial</page_intent>
+        </seo>
+        <blocks>
+          <block color="#18C4A9">
+            <block_title>Hero claim_led</block_title>
+            <wireframe>cta_left</wireframe>
+            <content>Headline names the positioning. Subhead references the kind of client we work with. Primary CTA Start a project.</content>
+          </block>
+          <block>
+            <block_title>Social proof logo_wall</block_title>
+            <wireframe>logos</wireframe>
+            <content>Named client logos filtered to recognizable brands.</content>
+          </block>
+          <block>
+            <block_title>Value proposition single_sentence</block_title>
+            <wireframe>title_and_paragraph</wireframe>
+            <content>One sentence translating positioning into buyer language.</content>
+          </block>
+          <block>
+            <block_title>Social proof named_case_studies</block_title>
+            <wireframe>articles</wireframe>
+            <content>Three recent case studies with outcome metrics.</content>
+          </block>
+          <block>
+            <block_title>Feature explanation numbered_steps</block_title>
+            <wireframe>steps</wireframe>
+            <content>Our process in four steps: discovery, strategy, design, build.</content>
+          </block>
+          <block color="#7B61FF" tag="Editorial">
+            <block_title>Editorial feature</block_title>
+            <wireframe>articles_2</wireframe>
+            <content>Latest playbooks and thinking from the strategy team.</content>
+          </block>
+          <block color="#F5A623" tag="Conversion">
+            <block_title>Conversion big_box_cta</block_title>
+            <wireframe>cta</wireframe>
+            <content>Ready to start. Book a discovery call.</content>
+          </block>
+          <block>
+            <block_title>Footer</block_title>
+            <wireframe>footer</wireframe>
+          </block>
+        </blocks>
+        <children>
+          <node>
+            <node_title>Work</node_title>
+            <seo>
+              <seo_title>Our work</seo_title>
+              <slug>/work</slug>
+              <description>Selected case studies across brand, web and product.</description>
+              <page_intent>Informational</page_intent>
+            </seo>
+            <blocks>
+              <block>
+                <block_title>Half hero</block_title>
+                <wireframe>title_and_paragraph, breadcrumbs</wireframe>
+                <content>Short statement of practice, breadcrumb back to home.</content>
+              </block>
+              <block>
+                <block_title>Filter</block_title>
+                <wireframe>filter</wireframe>
+                <content>Filter by industry, discipline, year.</content>
+              </block>
+              <block>
+                <block_title>Catalog</block_title>
+                <wireframe>catalog_2</wireframe>
+                <content>Case study cards with image, client, result.</content>
+              </block>
+              <block>
+                <block_title>Pagination</block_title>
+                <wireframe>pagination</wireframe>
+              </block>
+            </blocks>
+            <children>
+              <node color="#18C4A9" tag="Primary">
+                <node_title>Case study detail</node_title>
+                <seo>
+                  <seo_title>Case study template</seo_title>
+                  <slug>/work/case-study</slug>
+                  <description>Project case study with problem, approach and outcomes.</description>
+                  <page_intent>Informational</page_intent>
+                </seo>
+                <blocks>
+                  <block>
+                    <block_title>Half hero</block_title>
+                    <wireframe>title_and_paragraph, breadcrumbs</wireframe>
+                    <content>Client name, project title, one line summary.</content>
+                  </block>
+                  <block>
+                    <block_title>Hero image</block_title>
+                    <wireframe>image_placeholder</wireframe>
+                  </block>
+                  <block>
+                    <block_title>Feature explanation editorial_long_form</block_title>
+                    <wireframe>text_double</wireframe>
+                    <content>Problem and approach in two columns.</content>
+                  </block>
+                  <block>
+                    <block_title>Feature side_by_side</block_title>
+                    <wireframe>image_right</wireframe>
+                    <content>Before and after screenshots or comparison.</content>
+                  </block>
+                  <block>
+                    <block_title>Quote</block_title>
+                    <wireframe>quote</wireframe>
+                    <content>Client testimonial tied to the outcome.</content>
+                  </block>
+                  <block>
+                    <block_title>Numerical proof points</block_title>
+                    <wireframe>features_quarter</wireframe>
+                    <content>Four key outcome metrics.</content>
+                  </block>
+                  <block>
+                    <block_title>Related content</block_title>
+                    <wireframe>cards</wireframe>
+                    <content>Three related case studies.</content>
+                  </block>
+                  <block color="#F5A623" tag="Conversion">
+                    <block_title>Conversion big_box_cta</block_title>
+                    <wireframe>cta</wireframe>
+                    <content>Like this work. Start yours.</content>
+                  </block>
+                </blocks>
+                <children/>
+              </node>
+            </children>
+          </node>
+
+          <node>
+            <node_title>Services</node_title>
+            <seo>
+              <seo_title>Services</seo_title>
+              <slug>/services</slug>
+              <description>Brand strategy, web design, product design and UX strategy.</description>
+              <page_intent>Commercial</page_intent>
+            </seo>
+            <blocks>
+              <block>
+                <block_title>Half hero</block_title>
+                <wireframe>title_and_paragraph, breadcrumbs</wireframe>
+              </block>
+              <block>
+                <block_title>Feature explanation icon_grid</block_title>
+                <wireframe>features_quarter</wireframe>
+                <content>Four services with short descriptions.</content>
+              </block>
+              <block>
+                <block_title>Feature numbered_steps</block_title>
+                <wireframe>steps</wireframe>
+                <content>Engagement model: discover, define, design, deliver.</content>
+              </block>
+              <block>
+                <block_title>Objection handling faq</block_title>
+                <wireframe>faq</wireframe>
+                <content>Timeline, budget, team composition, retainer vs project.</content>
+              </block>
+              <block color="#F5A623" tag="Conversion">
+                <block_title>Conversion big_box_cta</block_title>
+                <wireframe>cta</wireframe>
+              </block>
+            </blocks>
+            <children/>
+          </node>
+
+          <node color="#7B61FF" tag="Editorial">
+            <node_title>Thinking</node_title>
+            <seo>
+              <seo_title>Thinking</seo_title>
+              <slug>/thinking</slug>
+              <description>Playbooks and essays from the Blacksmith strategy team.</description>
+              <page_intent>Informational</page_intent>
+            </seo>
+            <blocks>
+              <block>
+                <block_title>Half hero</block_title>
+                <wireframe>title_and_paragraph, breadcrumbs</wireframe>
+              </block>
+              <block>
+                <block_title>Filter</block_title>
+                <wireframe>filter</wireframe>
+              </block>
+              <block>
+                <block_title>Editorial feature</block_title>
+                <wireframe>articles</wireframe>
+                <content>Essay cards with image, title, author.</content>
+              </block>
+              <block>
+                <block_title>Newsletter</block_title>
+                <wireframe>newsletter</wireframe>
+                <content>Subscribe to the monthly strategy digest.</content>
+              </block>
+              <block>
+                <block_title>Pagination</block_title>
+                <wireframe>pagination</wireframe>
+              </block>
+            </blocks>
+            <children>
+              <node>
+                <node_title>Essay detail</node_title>
+                <seo>
+                  <seo_title>Essay template</seo_title>
+                  <slug>/thinking/essay</slug>
+                  <page_intent>Informational</page_intent>
+                </seo>
+                <blocks>
+                  <block>
+                    <block_title>Half hero</block_title>
+                    <wireframe>title_and_paragraph, breadcrumbs</wireframe>
+                  </block>
+                  <block>
+                    <block_title>Table of contents</block_title>
+                    <wireframe>table_of_contents</wireframe>
+                  </block>
+                  <block>
+                    <block_title>Editorial long form</block_title>
+                    <wireframe>text</wireframe>
+                    <content>Long form body with pull quotes and images inline.</content>
+                  </block>
+                  <block>
+                    <block_title>Related content</block_title>
+                    <wireframe>articles_3</wireframe>
+                  </block>
+                  <block>
+                    <block_title>Newsletter</block_title>
+                    <wireframe>newsletter</wireframe>
+                  </block>
+                </blocks>
+                <children/>
+              </node>
+            </children>
+          </node>
+
+          <node>
+            <node_title>About</node_title>
+            <seo>
+              <seo_title>About Blacksmith</seo_title>
+              <slug>/about</slug>
+              <description>How we work, who we work with, and what we stand for.</description>
+              <page_intent>Informational</page_intent>
+            </seo>
+            <blocks>
+              <block>
+                <block_title>Half hero</block_title>
+                <wireframe>title_and_paragraph, breadcrumbs</wireframe>
+              </block>
+              <block>
+                <block_title>Editorial feature</block_title>
+                <wireframe>text_and_video</wireframe>
+                <content>Studio story with founder quote.</content>
+              </block>
+              <block>
+                <block_title>Team</block_title>
+                <wireframe>team</wireframe>
+                <content>Three column grid of leadership and strategy leads.</content>
+              </block>
+              <block color="#EA5E5E" tag="Needs content">
+                <block_title>Numerical proof points</block_title>
+                <wireframe>features_quarter</wireframe>
+                <content>Years in practice, clients served, recognitions. Awaiting final numbers from ops.</content>
+              </block>
+              <block>
+                <block_title>Press mentions</block_title>
+                <wireframe>logos</wireframe>
+              </block>
+            </blocks>
+            <children/>
+          </node>
+
+          <node color="#F5A623" tag="Conversion">
+            <node_title>Contact</node_title>
+            <seo>
+              <seo_title>Start a project</seo_title>
+              <slug>/contact</slug>
+              <description>Tell us about your project and we will respond within two business days.</description>
+              <page_intent>Transactional</page_intent>
+            </seo>
+            <blocks>
+              <block>
+                <block_title>Half hero</block_title>
+                <wireframe>title_and_paragraph, breadcrumbs</wireframe>
+              </block>
+              <block>
+                <block_title>Conversion primary_form_fill</block_title>
+                <wireframe>contact_form</wireframe>
+                <content>Fields: name, company, project type, budget range, timeline, message.</content>
+              </block>
+              <block>
+                <block_title>Objection handling faq</block_title>
+                <wireframe>faq</wireframe>
+                <content>Response time, budget minimums, NDA process.</content>
+              </block>
+            </blocks>
+            <children/>
+          </node>
+        </children>
+      </node>
+    </section>
+
+    <section>
+      <node>
+        <node_title>404</node_title>
+        <seo>
+          <seo_title>Page not found</seo_title>
+          <slug>/404</slug>
+          <page_intent>Navigational</page_intent>
+        </seo>
+        <blocks>
+          <block>
+            <block_title>Error page</block_title>
+            <wireframe>error_404</wireframe>
+          </block>
+        </blocks>
+        <children/>
+      </node>
+
+      <node>
+        <node_title>Privacy</node_title>
+        <seo>
+          <slug>/privacy</slug>
+          <page_intent>Informational</page_intent>
+        </seo>
+        <blocks>
+          <block>
+            <block_title>Legal body</block_title>
+            <wireframe>text</wireframe>
+          </block>
+        </blocks>
+        <children/>
+      </node>
+
+      <node>
+        <node_title>Terms</node_title>
+        <seo>
+          <slug>/terms</slug>
+          <page_intent>Informational</page_intent>
+        </seo>
+        <blocks>
+          <block>
+            <block_title>Legal body</block_title>
+            <wireframe>text</wireframe>
+          </block>
+        </blocks>
+        <children/>
+      </node>
+    </section>
+  </tree>
+</octopus>
